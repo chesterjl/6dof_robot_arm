@@ -1,0 +1,24 @@
+[0.035s] Invoking command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg -- -j16 -l16
+[0.115s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.467s] -- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[0.470s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.807s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.824s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.847s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.874s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.981s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.985s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.246s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.347s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.451s] -- Found trajectory_msgs: 5.3.7 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[1.510s] -- Found shape_msgs: 5.3.7 (/opt/ros/jazzy/share/shape_msgs/cmake)
+[1.541s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.541s]   ament_target_dependencies() the passed package name
+[1.541s]   'moveit_ros_planning_interface' was not found before
+[1.541s] Call Stack (most recent call first):
+[1.541s]   CMakeLists.txt:38 (ament_target_dependencies)
+[1.541s] 
+[1.541s] [0m
+[1.541s] -- Configuring incomplete, errors occurred!
+[1.550s] gmake: *** [Makefile:377: cmake_check_build_system] Error 1
+[1.553s] Invoked command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg -- -j16 -l16

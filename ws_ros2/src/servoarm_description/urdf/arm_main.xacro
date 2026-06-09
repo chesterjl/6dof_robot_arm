@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="6dof_robot_arm">
+    
+    <xacro:include filename="$(find servoarm_description)/urdf/materials.xacro"/>
+    <xacro:include filename="$(find servoarm_description)/urdf/arm.xacro"/>
+    <xacro:include filename="$(find servoarm_description)/urdf/arm.ros2_control.xacro"/>
+    <xacro:include filename="$(find servoarm_description)/urdf/arm.gazebo.xacro"/> 
+    <xacro:arm_ros2_control />
+
+</robot>

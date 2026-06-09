@@ -1,0 +1,20 @@
+[0.034s] Invoking command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_system_tests -- -j16 -l16
+[0.125s] Invoked command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_system_tests -- -j16 -l16
+[0.127s] Invoking command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_system_tests
+[0.175s] -- Install configuration: ""
+[0.175s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/ament_index/resource_index/package_run_dependencies/servoarm_system_tests
+[0.176s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/ament_index/resource_index/parent_prefix_path/servoarm_system_tests
+[0.176s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/environment/ament_prefix_path.sh
+[0.177s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/environment/ament_prefix_path.dsv
+[0.177s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/environment/path.sh
+[0.177s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/environment/path.dsv
+[0.177s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/local_setup.bash
+[0.178s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/local_setup.sh
+[0.179s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/local_setup.zsh
+[0.180s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/local_setup.dsv
+[0.181s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/package.dsv
+[0.184s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/ament_index/resource_index/packages/servoarm_system_tests
+[0.184s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/cmake/servoarm_system_testsConfig.cmake
+[0.184s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/cmake/servoarm_system_testsConfig-version.cmake
+[0.184s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/package.xml
+[0.215s] Invoked command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_system_tests

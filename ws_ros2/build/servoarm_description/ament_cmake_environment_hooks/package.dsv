@@ -1,0 +1,4 @@
+source;share/servoarm_description/local_setup.bash
+source;share/servoarm_description/local_setup.dsv
+source;share/servoarm_description/local_setup.sh
+source;share/servoarm_description/local_setup.zsh

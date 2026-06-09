@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/src/servoarm_description/models":
+  No such file or directory.
+
+[0m

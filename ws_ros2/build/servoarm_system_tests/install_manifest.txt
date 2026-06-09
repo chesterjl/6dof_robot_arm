@@ -1,0 +1,15 @@
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/ament_index/resource_index/package_run_dependencies/servoarm_system_tests
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/ament_index/resource_index/parent_prefix_path/servoarm_system_tests
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/environment/ament_prefix_path.sh
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/environment/ament_prefix_path.dsv
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/environment/path.sh
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/environment/path.dsv
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/local_setup.bash
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/local_setup.sh
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/local_setup.zsh
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/local_setup.dsv
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/package.dsv
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/ament_index/resource_index/packages/servoarm_system_tests
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/cmake/servoarm_system_testsConfig.cmake
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/cmake/servoarm_system_testsConfig-version.cmake
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_system_tests/share/servoarm_system_tests/package.xml

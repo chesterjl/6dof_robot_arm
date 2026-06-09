@@ -1,0 +1,7 @@
+[0.031s] Invoking command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg -- -j16 -l16
+[0.141s] [ 33%] Built target gtest_main
+[0.141s] [ 33%] Built target gtest
+[0.142s] [ 58%] Built target joint_state_publisher
+[0.142s] [ 66%] Built target arm_publisher_gazebo
+[0.187s] [ 83%] Built target plan_around_objects
+[0.187s] [100%] Built target test_publisher

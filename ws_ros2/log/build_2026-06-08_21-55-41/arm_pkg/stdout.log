@@ -1,0 +1,75 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found trajectory_msgs: 5.3.7 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+-- Found shape_msgs: 5.3.7 (/opt/ros/jazzy/share/shape_msgs/cmake)
+-- Found moveit_ros_planning_interface: 2.12.4 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.7.1 (/opt/ros/jazzy/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+-- Found moveit_visual_tools: 4.1.2 (/opt/ros/jazzy/share/moveit_visual_tools/cmake)
+-- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+--   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+-- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done (11.7s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg
+[ 16%] Built target gtest_main
+[ 33%] Built target gtest
+[ 41%] [32mBuilding CXX object CMakeFiles/arm_publisher_gazebo.dir/src/arm_publisher_gazebo.cpp.o[0m
+[ 58%] Built target joint_state_publisher
+[ 75%] Built target plan_around_objects
+[ 83%] [32mBuilding CXX object CMakeFiles/test_publisher.dir/test/gtest/test_publisher.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable arm_publisher_gazebo[0m
+[100%] [32m[1mLinking CXX executable test_publisher[0m
+[100%] Built target arm_publisher_gazebo
+[100%] Built target test_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/lib/arm_pkg/joint_state_publisher
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/lib/arm_pkg/arm_publisher_gazebo
+-- Set non-toolchain portion of runtime path of "/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/lib/arm_pkg/arm_publisher_gazebo" to ""
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/lib/arm_pkg/plan_around_objects
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/ament_index/resource_index/package_run_dependencies/arm_pkg
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/ament_index/resource_index/parent_prefix_path/arm_pkg
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/environment/path.sh
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/environment/path.dsv
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/local_setup.bash
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/local_setup.sh
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/local_setup.zsh
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/local_setup.dsv
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/package.dsv
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/ament_index/resource_index/packages/arm_pkg
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig.cmake
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig-version.cmake
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/package.xml

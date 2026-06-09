@@ -1,0 +1,128 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found controller_manager: 4.44.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found gripper_controllers: 4.39.0 (/opt/ros/jazzy/share/gripper_controllers/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ros2_control: 4.44.0 (/opt/ros/jazzy/share/ros2_control/cmake)
+-- Found ros2_controllers: 4.39.0 (/opt/ros/jazzy/share/ros2_controllers/cmake)
+-- Found xacro: 2.1.1 (/opt/ros/jazzy/share/xacro/cmake)
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_description
+-- Install configuration: ""
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/launch
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/launch/display.launch.py
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/launch/gazebo.launch.py
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/urdf
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/urdf/arm.xacro
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/urdf/arm_main.xacro
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/urdf/arm.ros2_control.xacro
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/urdf/materials.xacro
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/urdf/arm.gazebo.xacro
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/urdf/target_box.srdf
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/config
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/config/display.rviz
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/config/ros2_controller.yaml
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/parameters
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/parameters/bridge_parameters.yaml
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/top_arm.stl
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/base_cylinder_mesh.stl:Zone.Identifier
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/base_cylinder.stl:Zone.Identifier
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/top_plate.stl
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/top_plate.stl:Zone.Identifier
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/top_arm.stl:Zone.Identifier
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/clawbase.stl
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/lower_arm.stl:Zone.Identifier
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/base_cylinder_mesh.stl
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/clawr.stl
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/base_cylinder.stl
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/clawl.stl:Zone.Identifier
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/lower_arm.stl
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/wrist.stl:Zone.Identifier
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/clawr.stl:Zone.Identifier
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/wrist.stl
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/clawl.stl
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/meshes/clawbase.stl:Zone.Identifier
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/worlds
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/worlds/pick_and_place_demo.world
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/ground_plane
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/ground_plane/model.config
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/ground_plane/model-1_2.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/ground_plane/model-1_3.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/ground_plane/model-1_4.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/ground_plane/model.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/brown_table
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/brown_table/model.config
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/brown_table/model.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can/model.config
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can/model-1_2.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can/materials
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can/materials/textures
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can/materials/textures/coke_can.png
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can/meshes
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can/meshes/coke_can.dae
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can/model-1_3.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can/model-1_4.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/coke_can/model.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cardboard_box
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cardboard_box/model.config
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cardboard_box/materials
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cardboard_box/materials/textures
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cardboard_box/materials/textures/cardboard_box.png
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cardboard_box/meshes
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cardboard_box/meshes/cardboard_box.png
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cardboard_box/meshes/cardboard_box.dae
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cardboard_box/model.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/sun
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/sun/model.config
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/sun/model-1_2.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/sun/model-1_3.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/sun/model-1_4.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/sun/model.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard/model.config
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard/materials
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard/materials/scripts
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard/materials/scripts/mustard.material
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard/materials/textures
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard/materials/textures/optimized_tsdf_texture_mapped_mesh.png
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard/meshes
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard/meshes/texture_map.png
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard/meshes/mustard.dae
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/mustard/model.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cheezit_big_original
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cheezit_big_original/model.config
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cheezit_big_original/meshes
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cheezit_big_original/meshes/cheezit_big_original.dae
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cheezit_big_original/meshes/cheez_tex_0.jpg
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/cheezit_big_original/model.sdf
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/red_cylinder
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/red_cylinder/model.config
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/models/red_cylinder/model.sdf
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/ament_index/resource_index/package_run_dependencies/servoarm_description
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/ament_index/resource_index/parent_prefix_path/servoarm_description
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/environment/path.sh
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/environment/path.dsv
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/local_setup.bash
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/local_setup.sh
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/local_setup.zsh
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/local_setup.dsv
+-- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/package.dsv
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/ament_index/resource_index/packages/servoarm_description
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/cmake/servoarm_descriptionConfig.cmake
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/cmake/servoarm_descriptionConfig-version.cmake
+-- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_description/share/servoarm_description/package.xml

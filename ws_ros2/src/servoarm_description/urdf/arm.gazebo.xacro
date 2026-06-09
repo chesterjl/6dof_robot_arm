@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <gazebo>
+    <plugin filename="gz_ros2_control-system"
+            name="gz_ros2_control::GazeboSimROS2ControlPlugin">
+      <!-- Points to your ros2_controller.yaml -->
+      <parameters>$(find servoarm_description)/config/ros2_controller.yaml</parameters>
+      <ros>
+        <namespace>/</namespace>
+      </ros>
+    </plugin>
+
+  </gazebo>
+    
+  <!-- ═══════════════════════════════════════════════════════════
+       GAZEBO MATERIAL REFERENCES
+       Each <gazebo reference="..."> applies Gazebo-side properties
+       to a URDF link. This is what makes the links VISIBLE.
+  ════════════════════════════════════════════════════════════════ -->
+
+  <!-- Base link -->
+  <gazebo reference="base_link">
+    <material>Gazebo/DarkGrey</material>
+    <mu1>0.9</mu1>
+    <mu2>0.9</mu2>
+    <self_collide>false</self_collide>
+  </gazebo>
+
+  <!-- Waist link -->
+  <gazebo reference="waist_link">
+    <material>Gazebo/DarkGrey</material>
+    <mu1>0.5</mu1>
+    <mu2>0.5</mu2>
+    <self_collide>false</self_collide>
+  </gazebo>
+
+  <!-- Shoulder link -->
+  <gazebo reference="shoulder_link">
+    <material>Gazebo/DarkGrey</material>
+    <mu1>0.5</mu1>
+    <mu2>0.5</mu2>
+    <self_collide>false</self_collide>
+  </gazebo>
+
+  <!-- Elbow link -->
+  <gazebo reference="elbow_link">
+    <material>Gazebo/DarkGrey</material>
+    <mu1>0.5</mu1>
+    <mu2>0.5</mu2>
+    <self_collide>false</self_collide>
+  </gazebo>
+
+  <!-- Wrist pitch -->
+  <gazebo reference="wrist_pitch">
+    <material>Gazebo/DarkGrey</material>
+    <mu1>0.5</mu1>
+    <mu2>0.5</mu2>
+    <self_collide>false</self_collide>
+  </gazebo>
+
+  <!-- Wrist roll -->
+  <gazebo reference="wrist_roll">
+    <material>Gazebo/White</material>
+    <mu1>0.5</mu1>
+    <mu2>0.5</mu2>
+    <self_collide>false</self_collide>
+  </gazebo>
+
+  <!-- Right gripper -->
+  <gazebo reference="right_gripper">
+    <material>Gazebo/White</material>
+    <mu1>1.2</mu1>
+    <mu2>1.2</mu2>
+    <self_collide>false</self_collide>
+  </gazebo>
+
+  <!-- Left gripper -->
+  <gazebo reference="left_gripper">
+    <material>Gazebo/White</material>
+    <mu1>1.2</mu1>
+    <mu2>1.2</mu2>
+    <self_collide>false</self_collide>
+  </gazebo>
+
+</robot>

@@ -1,0 +1,34 @@
+[0.042s] Invoking command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg -- -j16 -l16
+[0.370s] [ 33%] Built target gtest_main
+[0.370s] [ 33%] Built target gtest
+[0.371s] [ 41%] [32mBuilding CXX object CMakeFiles/arm_publisher_gazebo.dir/src/arm_publisher_gazebo.cpp.o[0m
+[0.372s] [ 58%] Built target joint_state_publisher
+[0.409s] [ 75%] [32mBuilding CXX object CMakeFiles/test_publisher.dir/test/gtest/test_publisher.cpp.o[0m
+[0.410s] [ 83%] Built target plan_around_objects
+[21.547s] [ 91%] [32m[1mLinking CXX executable arm_publisher_gazebo[0m
+[21.695s] [100%] [32m[1mLinking CXX executable test_publisher[0m
+[22.749s] [100%] Built target arm_publisher_gazebo
+[22.863s] [100%] Built target test_publisher
+[22.985s] Invoked command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg -- -j16 -l16
+[23.025s] Invoking command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg
+[23.051s] -- Install configuration: ""
+[23.054s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/lib/arm_pkg/joint_state_publisher
+[23.058s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/lib/arm_pkg/arm_publisher_gazebo
+[23.078s] -- Set non-toolchain portion of runtime path of "/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/lib/arm_pkg/arm_publisher_gazebo" to ""
+[23.080s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/lib/arm_pkg/plan_around_objects
+[23.081s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/ament_index/resource_index/package_run_dependencies/arm_pkg
+[23.082s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/ament_index/resource_index/parent_prefix_path/arm_pkg
+[23.083s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.sh
+[23.083s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.dsv
+[23.083s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/environment/path.sh
+[23.084s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/environment/path.dsv
+[23.085s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/local_setup.bash
+[23.085s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/local_setup.sh
+[23.086s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/local_setup.zsh
+[23.086s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/local_setup.dsv
+[23.086s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/package.dsv
+[23.092s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/ament_index/resource_index/packages/arm_pkg
+[23.092s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig.cmake
+[23.092s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig-version.cmake
+[23.093s] -- Up-to-date: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/arm_pkg/share/arm_pkg/package.xml
+[23.111s] Invoked command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/arm_pkg
