@@ -47,7 +47,7 @@ private:
   bool joint_states_received_;
 
   // ── FIXED: Target configurations trimmed to 6 items [j1, j2, j3, j4, j5, j6]
-  std::vector<double> LEFT  = {  1.56, 0.565, -0.518, -0.636,  1.56, 0.0 }; // Gripper Closed
+    std::vector<double> LEFT  = {  1.56, 0.565, -0.518, -0.636,  1.56, 0.0 }; // Gripper Closed
   std::vector<double> MID   = {  0.00, 0.300,  0.000,  0.000,  0.00,  0.0 }; // Gripper Closed
   std::vector<double> RIGHT = { -1.56, 0.565, -0.518, -0.636, -1.56, -0.2 }; // Gripper Open
 

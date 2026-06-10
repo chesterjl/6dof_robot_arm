@@ -1,0 +1,17 @@
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/launch/mtc_demo.launch.py
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/lib/servoarm_mtc/mtc_node
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/ament_index/resource_index/package_run_dependencies/servoarm_mtc
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/ament_index/resource_index/parent_prefix_path/servoarm_mtc
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/environment/ament_prefix_path.sh
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/environment/ament_prefix_path.dsv
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/environment/path.sh
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/environment/path.dsv
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/local_setup.bash
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/local_setup.sh
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/local_setup.zsh
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/local_setup.dsv
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/package.dsv
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/ament_index/resource_index/packages/servoarm_mtc
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/cmake/servoarm_mtcConfig.cmake
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/cmake/servoarm_mtcConfig-version.cmake
+/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/package.xml

@@ -59,5 +59,13 @@ joint_limits:
     has_acceleration_limits: true
     max_acceleration: 0.5
     has_position_limits: true
-    min_position: -0.2
+    min_position: 0.0
+    max_position: 0.2
+  joint_7:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: false
+    max_acceleration: 0.0
+    has_position_limits: true
+    min_position: -0.2  # mimic mirror
     max_position: 0.0

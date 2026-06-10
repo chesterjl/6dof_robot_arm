@@ -10,6 +10,7 @@ from launch_ros.substitutions import FindPackageShare
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 from moveit_configs_utils import MoveItConfigsBuilder
+from launch.actions import TimerAction
 
 def generate_launch_description():
     # ── 1. DYNAMIC PATH RESOLUTION ───────────────────────────────────────────
@@ -123,6 +124,11 @@ def generate_launch_description():
         ],
     )
 
+    delayed_move_group = TimerAction(
+        period=10.0,  # seconds — gripper spawns ~8-9s after launch in your chain
+        actions=[run_move_group_node]
+    )
+
     rviz_base = Node(
         package="rviz2",
         executable="rviz2",
@@ -172,7 +178,7 @@ def generate_launch_description():
         load_joint_state_broadcaster,
         load_arm_controller,
         load_gripper_controller,
-        run_move_group_node,
+        delayed_move_group,
         rviz_base,
     ]
 

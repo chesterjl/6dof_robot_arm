@@ -204,21 +204,22 @@
 
   <joint name="joint_6" type="revolute">
     <axis xyz="0 0 1" />
-    <limit effort="1000.0" lower="-0.2" upper="0.0" velocity="1.0" />
+    <limit effort="1000.0" lower="0.0" upper="0.2" velocity="1.0" />
     <parent link="wrist_roll"/>
     <child link="right_gripper"/>
     <origin rpy="0 0 -0.31" xyz="0.11 0.34 0"/>
-    <dynamics damping="0.01" friction="0.0"/> 
+    <dynamics damping="0.01" friction="0.0"/>
   </joint>
 
   <joint name="joint_7" type="revolute">
-    <limit effort="1000.0" lower="0.0" upper="0.2" velocity="1.0" />
+    <axis xyz="0 0 1"/>
+    <!-- FIXED: mimic must mirror joint_6 range: lower=-0.8, upper=0.0 -->
+    <limit effort="1000.0" lower="-0.2" upper="0.0" velocity="1.0" />
     <parent link="wrist_roll"/>
     <child link="left_gripper"/>
     <origin rpy="0 0 0.22" xyz="-0.16 0.30 0"/>
-    <axis xyz="0 0 1"/>
-    <mimic joint="joint_6" multiplier="-1.0" offset="0" />
-    <dynamics damping="0.01" friction="0.0"/> 
+    <mimic joint="joint_6" multiplier="1.0" offset="0" />
+    <dynamics damping="0.01" friction="0.0"/>
   </joint>
 
 </robot>

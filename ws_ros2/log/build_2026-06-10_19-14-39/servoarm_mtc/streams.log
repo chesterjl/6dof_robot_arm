@@ -1,0 +1,76 @@
+[0.044s] Invoking command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/src/servoarm_mtc -DCMAKE_INSTALL_PREFIX=/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc
+[0.558s] -- The C compiler identification is GNU 13.3.0
+[1.548s] -- The CXX compiler identification is GNU 13.3.0
+[2.446s] -- Detecting C compiler ABI info
+[2.915s] -- Detecting C compiler ABI info - done
+[2.924s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.924s] -- Detecting C compile features
+[2.925s] -- Detecting C compile features - done
+[3.076s] -- Detecting CXX compiler ABI info
+[3.542s] -- Detecting CXX compiler ABI info - done
+[3.552s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.553s] -- Detecting CXX compile features
+[3.553s] -- Detecting CXX compile features - done
+[3.560s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.810s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.000s] -- Found moveit_task_constructor_core: 0.1.4 (/opt/ros/jazzy/share/moveit_task_constructor_core/cmake)
+[4.369s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.395s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.421s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.452s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.997s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[7.499s] -- Found parameter_traits: 0.7.1 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[7.602s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[7.608s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[7.853s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[7.966s] -- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[8.018s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[8.268s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.268s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.538s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[8.750s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[8.813s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[8.834s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[8.988s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[9.154s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[9.305s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.305s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/src/servoarm_mtc/include>
+[9.305s] -- Configured cppcheck exclude dirs and/or files: 
+[9.307s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.307s] -- Configured 'flake8' exclude dirs and/or files: 
+[9.309s] -- Added test 'lint_cmake' to check CMake code style
+[9.310s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.313s] -- Added test 'uncrustify' to check C / C++ code style
+[9.313s] -- Configured uncrustify additional arguments: 
+[9.315s] -- Added test 'xmllint' to check XML markup files
+[9.319s] -- Configuring done (9.2s)
+[9.388s] -- Generating done (0.0s)
+[9.397s] -- Build files have been written to: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc
+[9.427s] Invoked command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/src/servoarm_mtc -DCMAKE_INSTALL_PREFIX=/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc
+[9.428s] Invoking command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc -- -j16 -l16
+[9.520s] [ 50%] [32mBuilding CXX object CMakeFiles/mtc_node.dir/src/mtc_node.cpp.o[0m
+[22.875s] [100%] [32m[1mLinking CXX executable mtc_node[0m
+[23.928s] [100%] Built target mtc_node
+[23.949s] Invoked command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc -- -j16 -l16
+[23.951s] Invoking command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc
+[23.968s] -- Install configuration: ""
+[23.968s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/launch
+[23.970s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/launch/mtc_demo.launch.py
+[23.972s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/lib/servoarm_mtc/mtc_node
+[23.974s] -- Set non-toolchain portion of runtime path of "/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/lib/servoarm_mtc/mtc_node" to ""
+[23.976s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/ament_index/resource_index/package_run_dependencies/servoarm_mtc
+[23.976s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/ament_index/resource_index/parent_prefix_path/servoarm_mtc
+[23.977s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/environment/ament_prefix_path.sh
+[23.977s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/environment/ament_prefix_path.dsv
+[23.978s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/environment/path.sh
+[23.979s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/environment/path.dsv
+[23.979s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/local_setup.bash
+[23.979s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/local_setup.sh
+[23.980s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/local_setup.zsh
+[23.980s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/local_setup.dsv
+[23.980s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/package.dsv
+[23.981s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/ament_index/resource_index/packages/servoarm_mtc
+[23.982s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/cmake/servoarm_mtcConfig.cmake
+[23.983s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/cmake/servoarm_mtcConfig-version.cmake
+[23.983s] -- Installing: /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/install/servoarm_mtc/share/servoarm_mtc/package.xml
+[23.986s] Invoked command in '/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc

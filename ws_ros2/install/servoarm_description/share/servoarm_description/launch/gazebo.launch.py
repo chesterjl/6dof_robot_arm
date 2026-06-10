@@ -206,7 +206,7 @@ def launch_setup(context, *args, **kwargs):
         delayed_jsb_spawner,
         load_arm_controller,
         load_gripper_controller,
-        load_arm_publisher,
+        # load_arm_publisher,
     ]
 
 

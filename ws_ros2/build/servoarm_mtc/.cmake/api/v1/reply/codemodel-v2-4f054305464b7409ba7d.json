@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2533140a5cdd6678826e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "servoarm_mtc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mtc_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mtc_node-ab3ffe0d9cbc9bb3be3c.json",
+					"name" : "mtc_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "servoarm_mtc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-servoarm_mtc_uninstall-b230001a4ee5ee6dcbea.json",
+					"name" : "servoarm_mtc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e5726dd4d0c87d926a74.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/build/servoarm_mtc",
+		"source" : "/home/chester_lnx/ws_6dof_robot_arm/ws_ros2/src/servoarm_mtc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

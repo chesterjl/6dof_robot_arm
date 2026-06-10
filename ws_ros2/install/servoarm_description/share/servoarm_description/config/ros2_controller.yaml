@@ -11,9 +11,8 @@ controller_manager:
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-    # ── CHANGED: Switched from a complex action controller to a direct topic position controller
     gripper_action_controller:
-      type: position_controllers/JointGroupPositionController
+      type: parallel_gripper_action_controller/GripperActionController
 
 joint_state_broadcaster:
   ros__parameters:
@@ -61,11 +60,12 @@ arm_controller:
 
 # ── CHANGED: Rewritten to support the JointGroupPositionController array schema
 gripper_action_controller:
-  ros__parameters:
-    joints:
-      - joint_6
+  ros__parameters:               # ── MAKE SURE THIS IS EXACTLY SPELLED WITH TWO UNDERSCORES
+    joint: joint_6               # ── ADD THIS SINGULAR FIELD
     command_interfaces:
       - position
     state_interfaces:
       - position
       - velocity
+    action_monitor_rate: 20.0
+    goal_tolerance: 0.0
